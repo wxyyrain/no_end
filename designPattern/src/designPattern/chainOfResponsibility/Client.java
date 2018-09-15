@@ -17,5 +17,6 @@ public class Client {
 		handler2.setNext(handler3);
 		// 提交请求，返回结果
 		Response response = handler1.handleMessage(new Request());
+		System.out.println(response);
 	}
 }
